@@ -1,0 +1,15 @@
+<div>
+    <h4> Form Square</h4>
+    <form action="/square" method="POST">
+        <div>
+            <label> Side </label>
+            <input type="text" name="side" />
+        </div>
+        <button type="submit"> Submit </button>
+    </form>
+
+    {% if dt.rangeSquare %}
+    <b> Hasilnya adalah {{ dt.rangeSquare }}</b>
+
+    {% endif %}
+</div>
